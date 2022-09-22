@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex scale-95">
     <svg
       class="w-24 h-6 fill-white"
       viewBox="0 0 90 20"
@@ -56,6 +56,6 @@
         </g>
       </g>
     </svg>
-    <span class="text-xs pl-1 text-[#ababab]">IN</span>
+    <span class="text-xs pl-1 -mt-2 text-[#ababab]">IN</span>
   </div>
 </template>

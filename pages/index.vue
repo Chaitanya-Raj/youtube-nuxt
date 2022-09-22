@@ -5,7 +5,7 @@
       <Sidebar />
       <div class="flex flex-col w-full h-full">
         <Tagbar />
-        <Home />
+        <!-- <Home /> -->
       </div>
     </div>
   </div>

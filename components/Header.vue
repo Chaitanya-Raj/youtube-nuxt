@@ -1,5 +1,5 @@
 <template>
-  <header class="flex px-5 py-3 text-white bg-[#202020]">
+  <header class="flex px-6 py-2 h-14 text-white bg-[#202020] justify-between">
     <div class="flex w-80 py-2">
       <div class="cursor-pointer">
         <burger-menu-icon />
@@ -9,10 +9,10 @@
       </div>
     </div>
 
-    <div class="flex-1 items-center justify-center">
+    <div class="flex-grow-0 flex-shrink w-[728px] items-center justify-center">
       <form class="flex relative text-gray-600">
         <input
-          class="flex-1 h-10 bg-[#181818] p-2 border border-[#3a3a3a]"
+          class="flex-1 h-10 bg-[#181818] p-2 border border-[#3a3a3a] px-2"
           type="search"
           name="search"
           placeholder="Search"

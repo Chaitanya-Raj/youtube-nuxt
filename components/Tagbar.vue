@@ -1,23 +1,15 @@
 <template>
-  <!-- component -->
-  <!-- https://tailwindcomponents.com/component/tags -->
   <div
-    class="flex items-center text-gray-200 bg-[#202020] border-y border-[#444444] px-4"
+    class="flex items-center text-white bg-[#202020] border-t border-b border-[#363636]"
   >
     <ul class="flex-1 p-3 space-x-3">
       <li
-        class="inline-flex items-center px-3 py-1 text-sm text-black bg-gray-200 rounded-full leading-sm"
-      >
-        All
-      </li>
-      <li
         v-for="tag in tags"
         :key="tag"
-        class="inline-flex items-center px-3 py-1 text-sm bg-[#363636] border border-[#545454] rounded-full leading-sm"
+        class="inline-flex items-center px-3 py-1 text-sm bg-[#363636] border border-[#484848] rounded-full leading-sm first:text-black first:bg-gray-200"
       >
         {{ tag }}
       </li>
-      <div></div>
     </ul>
     <div class="flex w-4 h-4">
       <svg
@@ -47,18 +39,17 @@ export default {
         "Live",
         "Gaming",
         "Mixes",
-        "Lo-fi",
-        "Thoughts",
-        "Computer Programming",
-        "Podcasts",
-        "Cooking shows",
-        "Kurzgesagt - In a Nutshell",
-        "History",
-        "Classical Music",
-        "Chess",
+        // "Lo-fi",
+        // "Thoughts",
+        // "Computer Programming",
+        // "Podcasts",
+        // "Cooking shows",
+        // "Kurzgesagt - In a Nutshell",
+        // "History",
+        // "Classical Music",
+        // "Chess",
       ],
     };
   },
-  setup() {},
 };
 </script>
