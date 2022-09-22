@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col h-screen overflow-y-hidden">
     <Header />
     <div class="flex flex-row w-full h-full">
       <Sidebar />
       <div class="flex flex-col w-full h-full">
         <Tagbar />
-        <!-- <Home /> -->
+        <Home />
       </div>
     </div>
   </div>

@@ -172,7 +172,7 @@ export default {
         },
         { name: "Explore", icon: "explore-icon" },
         { name: "Shorts", icon: "shorts-icon" },
-        { name: "Subscription", icon: "subscription-icon" },
+        { name: "Subscriptions", icon: "subscription-icon" },
       ],
       options2: [
         {

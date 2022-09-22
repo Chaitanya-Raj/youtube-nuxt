@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center text-white bg-[#202020] border-t border-b border-[#363636]"
+    class="flex items-center text-white bg-[#202020] border-t border-b border-[#363636] pr-4"
   >
     <ul class="flex-1 p-3 space-x-3">
       <li
