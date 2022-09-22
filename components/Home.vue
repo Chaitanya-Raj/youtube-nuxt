@@ -1,8 +1,8 @@
 <template>
   <div
-    class="min-h-[calc(100vh-110px)] bg-[#181818] pt-5 pb-20 px-20 overflow-y-scroll"
+    class="min-h-[calc(100vh-110px)] bg-[#181818] pt-5 pb-20 md:px-20 overflow-y-scroll px-2"
   >
-    <div class="grid grid-cols-12 gap-x-4 gap-y-10">
+    <div class="gap-x-4 gap-y-10 grid grid-cols-12">
       <home-item v-for="video in videos" :key="video.name" :video="video" />
     </div>
   </div>

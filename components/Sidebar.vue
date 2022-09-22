@@ -1,7 +1,7 @@
 <template>
   <!-- TODO: Make the scrollbar only show on hover -->
   <aside
-    class="w-72 h-[calc(100vh-56px)] bg-[#202020] py-3 overflow-y-auto"
+    class="w-72 h-[calc(100vh-56px)] bg-[#202020] py-3 overflow-y-auto hidden md:block"
     aria-label="Sidebar"
   >
     <div>
