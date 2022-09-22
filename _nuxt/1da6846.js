@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{264:function(t,n,c){"use strict";c.r(n);var l=c(43),component=Object(l.a)({},(function(){return(0,this._self._c)("img",{staticClass:"rounded-full w-7 h-7",attrs:{src:"https://chaitanya-raj.github.io/static/img/photo.webp"}})}),[],!1,null,null,null);n.default=component.exports}}]);
