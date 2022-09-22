@@ -1,39 +1,51 @@
 <template>
   <!-- TODO: Make the scrollbar only show on hover -->
-  <aside
-    class="w-72 h-[calc(100vh-56px)] bg-[#202020] py-3 overflow-y-auto hidden md:block"
-    aria-label="Sidebar"
-  >
-    <div>
+  <div>
+    <div class="md:hidden fixed bottom-0 z-10 flex bg-[#202020] w-full">
       <tab
         v-for="option in options1"
         :key="option.name"
         :name="option.name"
         :icon="option.icon"
+        :mobile="true"
+        class="flex-1"
       />
     </div>
-    <div class="pt-4 mt-4 border-t border-[#363636]">
+    <aside
+      class="xl:w-60 md:w-[74px] h-[calc(100vh-56px)] bg-[#202020] py-2 overflow-y-auto hidden md:block"
+      aria-label="Sidebar"
+    >
       <div>
         <tab
-          v-for="option in options2"
+          v-for="option in options1"
           :key="option.name"
           :name="option.name"
           :icon="option.icon"
         />
       </div>
-    </div>
+      <div class="pt-4 mt-2 border-t border-[#363636] hidden xl:block">
+        <div>
+          <tab
+            v-for="option in options2"
+            :key="option.name"
+            :name="option.name"
+            :icon="option.icon"
+          />
+        </div>
+      </div>
 
-    <div class="mt-4 border-t border-[#363636]">
-      <div
-        class="flex items-center pl-6 pt-3 pb-2 text-sm font-medium text-[#8a8a8a] group"
-      >
-        SUBSCRIPTIONS
+      <div class="mt-4 border-t border-[#363636] hidden xl:block">
+        <div
+          class="flex items-center pl-6 pt-3 pb-2 text-sm font-medium text-[#8a8a8a] group"
+        >
+          SUBSCRIPTIONS
+        </div>
+        <div v-for="channel in subscriptions" :key="channel.name">
+          <subscription :channel="channel" />
+        </div>
       </div>
-      <div v-for="channel in subscriptions" :key="channel.name">
-        <subscription :channel="channel" />
-      </div>
-    </div>
-  </aside>
+    </aside>
+  </div>
 </template>
 
 <script>
@@ -183,7 +195,7 @@ export default {
         { name: "Your Videos", icon: "videos-icon" },
         { name: "Watch Later", icon: "watch-later-icon" },
         { name: "Your Clips", icon: "clips-icon" },
-        { name: "See More", icon: "arrow-icon" },
+        { name: "Show More", icon: "arrow-icon" },
       ],
     };
   },

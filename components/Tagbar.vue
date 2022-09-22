@@ -6,7 +6,7 @@
       <li
         v-for="tag in tags"
         :key="tag"
-        class="inline-flex items-center px-3 py-1 text-sm bg-[#363636] border border-[#484848] rounded-full leading-sm first:text-black first:bg-gray-200"
+        class="inline-flex items-center px-3 py-1 xl:text-sm bg-[#363636] border border-[#484848] rounded-full leading-sm first:text-black first:bg-gray-200 text-xs"
       >
         {{ tag }}
       </li>
