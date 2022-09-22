@@ -1,0 +1,14 @@
+<template>
+  <svg
+    class="mr-5 w-6 h-6 fill-white"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g class="style-scope yt-icon">
+      <path
+        d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"
+        class="style-scope yt-icon"
+      ></path>
+    </g>
+  </svg>
+</template>
