@@ -23,7 +23,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu-OlsdSUHgAUOTV6bYLAUmL3AQbsFzglQ4J2WrdPw=s68-c-k-c0x00ffffff-no-rj",
           channel: "Kavita Seth",
           duration: "6:22",
-          views: "23 lakh views",
+          views: 2343246,
           time: "2 year ago",
         },
         {
@@ -34,7 +34,7 @@ export default {
             "https://yt3.ggpht.com/qzZgj0nZR9J4wYsu-d6EJ4UzoRquUAMEfkrEintZKAER5fSU_kcoslpg17OOckxVfwX9Obo8=s68-c-k-c0x00ffffff-no-rj",
           channel: "Lotus",
           duration: "57:04",
-          views: "11 lakh views",
+          views: 1156756,
           time: "1 year ago",
         },
         {
@@ -45,7 +45,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu97D06Ji45UQbR7smkFybVGEZkBii00W9ar6ilGQw=s88-c-k-c0x00ffffff-no-rj",
           channel: "Peter Cat Recording Co.",
           duration: "4:36",
-          views: "6.6 lakh views",
+          views: 6636247,
           time: "3 year ago",
         },
         {
@@ -56,7 +56,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu-OlsdSUHgAUOTV6bYLAUmL3AQbsFzglQ4J2WrdPw=s68-c-k-c0x00ffffff-no-rj",
           channel: "Academy of Ideas",
           duration: "1:15",
-          views: "2.7 lakh views",
+          views: 2775962,
           time: "1 month ago",
         },
         {
@@ -67,7 +67,7 @@ export default {
             "https://yt3.ggpht.com/XQWHGAaKhucjZ0CHKzwSx81_DStGKIlwxjcKfa_S799Vst1rfneLXhlfGhG0-3T69dJHbNuzNQA=s48-c-k-c0x00ffffff-no-nd-rj",
           channel: "LIFAFA",
           duration: "3:31",
-          views: "19 lakh views",
+          views: 1935097,
           time: "3 year ago",
         },
         {
@@ -78,7 +78,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu_8E2fVaNH2D20xn32ph9axohUCgWaLpXO_tXJ14g=s48-c-k-c0x00ffffff-no-rj",
           channel: "CS50",
           duration: "2:45:40",
-          views: "1 lakh views",
+          views: 185059,
           time: "1 month ago",
         },
         {
@@ -90,7 +90,7 @@ export default {
             "https://yt3.ggpht.com/m1WI2xsDLyJUGUnt2ZRSxqsT89gSnRaUQunO5p5WmpU1113oO31EXNl_8w1cuZXmIA0EHOTyJw=s48-c-k-c0x00ffffff-no-rj",
           channel: "How to ADHD",
           duration: "14:19",
-          views: "1.1 lakh views",
+          views: 117307,
           time: "8 day ago",
         },
         {
@@ -102,7 +102,7 @@ export default {
             "https://yt3.ggpht.com/e8P1A4RdQYbCQdoDBPamz_G_Yl5bSEtdvQquhvWEKy5sYmR1BpIcDinyGxYqB1fQRdO0CB_Q=s48-c-k-c0x00ffffff-no-rj",
           channel: "JAZZ IS EVERYWHERE",
           duration: "58:23",
-          views: "9 lakh views",
+          views: 972073,
           time: "7 month ago",
         },
         {
@@ -113,7 +113,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu8PE4HnYH_J7tPx2E-YvPOl_ESmjZC8BXeAL9amqfJxv_ZunFCtKnYgOuKxZJsZ=s176-c-k-c0x00ffffff-no-rj-mo",
           channel: "Time ho to sun lena",
           duration: "4:19",
-          views: "22k views",
+          views: 22680,
           time: "2 year ago",
         },
         {
@@ -124,7 +124,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu8PE4HnYH_J7tPx2E-YvPOl_ESmjZC8BXeAL9amqfJxv_ZunFCtKnYgOuKxZJsZ=s176-c-k-c0x00ffffff-no-rj-mo",
           channel: "Time ho to sun lena",
           duration: "1:54",
-          views: "12k views",
+          views: 12027,
           time: "3 year ago",
         },
         {
@@ -135,7 +135,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu8PE4HnYH_J7tPx2E-YvPOl_ESmjZC8BXeAL9amqfJxv_ZunFCtKnYgOuKxZJsZ=s176-c-k-c0x00ffffff-no-rj-mo",
           channel: "Time ho to sun lena",
           duration: "4:45",
-          views: "6.7k views",
+          views: 6780,
           time: "2 year ago",
         },
         {
@@ -146,7 +146,7 @@ export default {
             "https://yt3.ggpht.com/ytc/AMLnZu8PE4HnYH_J7tPx2E-YvPOl_ESmjZC8BXeAL9amqfJxv_ZunFCtKnYgOuKxZJsZ=s176-c-k-c0x00ffffff-no-rj-mo",
           channel: "Time ho to sun lena",
           duration: "5:28",
-          views: "3k views",
+          views: 3803,
           time: "3 year ago",
         },
       ],

@@ -1,11 +1,11 @@
 <template>
-  <div class="col-span-12 lg:col-span-6 xl:col-span-4 2xl:col-span-3">
+  <div class="lg:col-span-6 xl:col-span-4 2xl:col-span-3 col-span-12">
     <div class="relative">
       <!-- Image Video -->
       <img :src="video.thumbnail" class="w-full" />
 
       <p
-        class="absolute px-1 text-xs text-gray-100 bg-gray-900 right-2 bottom-2 py"
+        class="right-2 bottom-2 py absolute px-1 text-xs text-gray-100 bg-gray-900"
       >
         {{ video.duration }}
       </p>
@@ -14,7 +14,7 @@
     <div class="flex flex-row gap-3 mt-3">
       <!-- Profile Picture -->
       <a href="#">
-        <img :src="video.avatar" class="rounded-full max-h-10 max-w-10" />
+        <img :src="video.avatar" class="max-h-10 max-w-10 rounded-full" />
       </a>
 
       <!-- Description -->
@@ -24,11 +24,11 @@
             video.title
           }}</span>
         </div>
-        <div class="text-sm text-gray-400 hover:text-gray-100">
+        <div class="hover:text-gray-100 text-sm text-gray-400">
           {{ video.channel }}
         </div>
         <p class="text-sm text-gray-400">
-          {{ video.views }} • {{ video.time }}
+          {{ views }} views • {{ video.time }}
         </p>
       </div>
     </div>
@@ -39,6 +39,12 @@
 export default {
   props: {
     video: { type: Object, default: () => {} },
+  },
+  computed: {
+    views() {
+      const formatter = Intl.NumberFormat("en-IN", { notation: "compact" });
+      return formatter.format(this.video.views);
+    },
   },
 };
 </script>
